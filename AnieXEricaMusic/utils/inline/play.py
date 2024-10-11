@@ -72,7 +72,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="🖤  ᴏᴡɴᴇʀ ✨", url=f"https://t.me/Popcorn_008"),           
         ],
         [
-        InlineKeyboardButton(text="🖤  ᴜᴘᴅᴀᴛᴇ ✨", url=f"https://t.me/The_Art_Of_Self_Healing"),
+        InlineKeyboardButton(text="🖤  ᴜᴘᴅᴀᴛᴇ ✨", url=f"https://t.me/moonz_lightx"),
         InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="🖤  close ✨"),
         ]
     ]
@@ -92,7 +92,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="🖤  ᴏᴡɴᴇʀ ✨", url=f"https://t.me/Popcorn_008"),           
         ],
         [
-        InlineKeyboardButton(text="🖤  ᴜᴘᴅᴀᴛᴇ ✨", url=f"https://t.me/The_Art_Of_Self_Healing"),
+        InlineKeyboardButton(text="🖤  ᴜᴘᴅᴀᴛᴇ ✨", url=f"https://t.me/moonz_lightx"),
         InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="🖤  close ✨"),
         ]
     ]
