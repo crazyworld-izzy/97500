@@ -33,7 +33,7 @@ def supp_markup(_):
             [
                 InlineKeyboardButton(
                     text=_["S_B_9"],
-                    url=SUPPORT_GROUP,
+                    url=f"https://t.me/The_Art_Of_Self_Healing",
                 ),
             ]
         ]
