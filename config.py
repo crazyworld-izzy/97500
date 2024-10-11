@@ -9,7 +9,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "20185438"))
 API_HASH = getenv("API_HASH", "c8f3cb6db40e4eb6e7e43866660e54ac")
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://telegra.ph/Privacy-Policy-for-AnieXEricaMusic-10-06")
-BOT_TOKEN = getenv("BOT_TOKEN", "7734293231:AAFZIGbxVoeBWt6UyuwhApdw3aZvUGydkL8")
+BOT_TOKEN = getenv("BOT_TOKEN", "7243771033:AAEP1ZsPanWL3FikMzRnUVHEodrLgxkYBcI")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monivps5:monivps5@cluster0.kmbq8we.mongodb.net/?retryWrites=true&w=majority")
 
@@ -33,14 +33,14 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SuperBanSBots")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AM_YTSUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Marz_dp")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/moonz_lightx")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2a230af10e0a40638dc77c1febb47170")
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "7f92897a59464ddbbf00f06cd6bda7fc")
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
-TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 5242880000))
-TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 5242880000))
+TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 9242880000))
+TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 9242880000))
 
 STRING1 = getenv("STRING_SESSION", "BQE0AV4AkOHlEGUXTgnIHKVyXCxOGFcqn-m08At2L9-B0CEc_Q0egqoWYbJwtSOC9OCb68BrLjaB3Sip0W2KOBXvUcuL5Z-z3X1ul7U77kQx_AN7mdKVZBbigJ5NevVKTyOl3_9FwU2dCykolAlcLoKEQiXVTQ-xlVPO4OnhviNDSLDklbvTRAT54LxBLHp383Aqotr1UwAGg9rWt-HdKcJQc5NBw2SMigHrqIXqJA60sQiioG1wntXywli1_LvzFA7eGvGGQ3W5KEBp-RXE55DqK-JLz8rCCqpmqX5DiL4jbnpm8Gg0u5Blg2zCxCAKC7dDhobGvQFCnoxDpxu2y5yRdolDXwAAAAHLupNFAA")
 STRING2 = getenv("STRING_SESSION2", None)
@@ -57,10 +57,10 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/4e68b6d15e042249fb284.png")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/4e68b6d15e042249fb284.png")
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = getenv("STATS_IMG_URL", "https://telegra.ph/file/4e68b6d15e042249fb284.png")
+START_IMG_URL = getenv("START_IMG_URL", "https://i.ibb.co/f4bS7Vr/photo-2024-10-11-18-28-48-7424588661833859176.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://i.ibb.co/f4bS7Vr/photo-2024-10-11-18-28-48-7424588661833859176.jpg")
+PLAYLIST_IMG_URL = "https://i.ibb.co/f4bS7Vr/photo-2024-10-11-18-28-48-7424588661833859176.jpg"
+STATS_IMG_URL = getenv("STATS_IMG_URL", "https://i.ibb.co/f4bS7Vr/photo-2024-10-11-18-28-48-7424588661833859176.jpg")
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
